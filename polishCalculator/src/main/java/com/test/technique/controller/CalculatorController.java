@@ -36,7 +36,7 @@ public class CalculatorController {
 
 	@ApiOperation(value = "Create a new stack")
 	@PostMapping("/stack")
-	private void createStack() { 
+	private void createStack() {
 
 		this.calculatorService.createStack();
 	}
